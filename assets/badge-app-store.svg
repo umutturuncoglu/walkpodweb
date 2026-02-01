@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="48" viewBox="0 0 150 48">
+  <rect rx="8" width="150" height="48" fill="#111827" />
+  <g transform="translate(12,10)">
+    <circle cx="8" cy="8" r="8" fill="#fff" />
+  </g>
+  <text x="42" y="30" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#fff" font-weight="700">Download on the App Store</text>
+</svg>
