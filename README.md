@@ -1,29 +1,20 @@
-# WalkPod Marketing Site (local)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Simple static marketing landing page scaffold. To view locally, run a static HTTP server from the `walkpodweb` folder.
+# Run and deploy your AI Studio app
 
-Commands:
+This contains everything you need to run your app locally.
 
-```powershell
-cd c:\Users\Dell\Desktop\walkpodweb
-python -m http.server 8000
-```
+View your app in AI Studio: https://ai.studio/apps/drive/1ZItmf2oiJo9qZz6B4vjMpjSX9cMwnddt
 
-Then open http://localhost:8000 in your browser.
+## Run Locally
 
-Files:
+**Prerequisites:**  Node.js
 
-- index.html — main page
-- styles.css — site styles
-- script.js — tiny form handler
 
-Notes:
-
-- Place your assets in the `assets` folder next to `index.html`.
-- Required asset names used by the page:
-	- `assets/logo.png` — site logo (will be used as-is)
-	- `assets/screenshot.png` — app screenshot for hero
-	- `assets/badge-google-play.png` — Google Play badge image
-	- `assets/badge-app-store.png` — App Store badge image
-
-If you want, I can add placeholder badges or inline SVGs; otherwise copy your image files into `assets` and reload the page.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
