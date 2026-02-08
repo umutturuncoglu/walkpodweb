@@ -12,3 +12,11 @@ declare module '*.jpg' {
     const src: string;
     export default src;
 }
+
+declare global {
+    interface Window {
+        gtag?: (...args: unknown[]) => void;
+    }
+}
+
+export {};

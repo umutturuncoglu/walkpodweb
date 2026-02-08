@@ -11,6 +11,7 @@ import DeleteAccount from './components/DeleteAccount';
 import TermsAndServices from './components/TermsAndServices';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
+import CookieConsentBar from './components/CookieConsentBar';
 
 const App: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -56,6 +57,7 @@ const App: React.FC = () => {
         )}
       </main>
       <Footer />
+      <CookieConsentBar />
     </div>
   );
 };
