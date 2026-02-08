@@ -28,10 +28,8 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <h4 className="text-lg font-bold">Company</h4>
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
-              <li><a href="#" className="hover:text-brand-green transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Blog</a></li>
+              <li><a href="/about-us.html" className="hover:text-brand-green transition-colors">About Us</a></li>
+              <li><a href="/contact.html" className="hover:text-brand-green transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -40,9 +38,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
               <li><a href="/privacy-policy.html" className="hover:text-brand-green transition-colors">Privacy Policy</a></li>
               <li><a href="/delete-account.html" className="hover:text-brand-green transition-colors">Delete Account</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Cookie Settings</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Legal Info</a></li>
+              <li><a href="/terms-and-services.html" className="hover:text-brand-green transition-colors">Terms and Services</a></li>
             </ul>
           </div>
         </div>

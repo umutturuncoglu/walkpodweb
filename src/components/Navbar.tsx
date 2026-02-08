@@ -25,9 +25,9 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode }) => {
         <div className="hidden md:flex items-center gap-10">
           <a href={sectionHref('#features')} className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">Features</a>
           <a href={sectionHref('#accuracy')} className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">Accuracy</a>
-          <a href={sectionHref('#about')} className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">About</a>
           <a href="/privacy-policy.html" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">Privacy Policy</a>
-          <a href="#" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">Terms And Conditions</a>
+          <a href="/terms-and-services.html" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">Terms and Services</a>
+          <a href="/contact.html" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-brand-green transition-colors">Contact</a>
         </div>
 
         <div className="flex items-center gap-4">
@@ -57,9 +57,9 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode }) => {
         <div className="md:hidden absolute top-20 left-4 right-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-6 space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
           <a href={sectionHref('#features')} onClick={() => setIsOpen(false)} className="block text-lg font-bold">Features</a>
           <a href={sectionHref('#accuracy')} onClick={() => setIsOpen(false)} className="block text-lg font-bold">Accuracy</a>
-          <a href={sectionHref('#about')} onClick={() => setIsOpen(false)} className="block text-lg font-bold">About</a>
           <a href="/privacy-policy.html" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Privacy Policy</a>
-          <a href="#" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Terms And Conditions</a>
+          <a href="/terms-and-services.html" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Terms and Services</a>
+          <a href="/contact.html" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Contact</a>
           <a href={sectionHref('#download')} onClick={() => setIsOpen(false)} className="block gradient-bg text-white text-center py-3 rounded-xl font-bold">Download App</a>
         </div>
       )}

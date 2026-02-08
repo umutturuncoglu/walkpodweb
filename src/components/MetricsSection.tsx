@@ -54,7 +54,7 @@ const MetricsSection: React.FC = () => {
           <div className="order-1 lg:order-2 space-y-8">
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
               Your journey, measured right—<br />
-              <span className="text-brand-green">true Kcal, Km, and time.</span>
+              <span className="text-brand-green">true Kcal, Distance, and Time.</span>
             </h2>
             
             <p className="text-xl text-slate-600 dark:text-slate-400 leading-relaxed">

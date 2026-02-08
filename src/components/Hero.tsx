@@ -1,7 +1,9 @@
 
 import React from 'react';
-import { ArrowRight, Zap } from 'lucide-react';
+import { Zap } from 'lucide-react';
 import logo from '../assets/logo.png';
+import appleStore from '../assets/apple_store.png';
+import googlePlay from '../assets/google_play.png';
 
 const Hero: React.FC = () => {
   return (
@@ -27,12 +29,20 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-            <button className="w-full sm:w-auto gradient-bg text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2 shadow-xl shadow-brand-green/20">
-              Get Started for Free <ArrowRight size={20} />
-            </button>
-            <button className="w-full sm:w-auto bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">
-              View Demo
-            </button>
+            <a
+              href="#"
+              aria-label="Download on the App Store"
+              className="inline-flex items-center justify-center rounded-xl bg-white p-2 border border-slate-200 shadow-sm hover:opacity-90 transition-opacity"
+            >
+              <img src={appleStore} alt="App Store" className="h-10 w-auto" />
+            </a>
+            <a
+              href="#"
+              aria-label="Get it on Google Play"
+              className="inline-flex items-center justify-center rounded-xl bg-white p-2 border border-slate-200 shadow-sm hover:opacity-90 transition-opacity"
+            >
+              <img src={googlePlay} alt="Google Play" className="h-10 w-auto" />
+            </a>
           </div>
         </div>
 

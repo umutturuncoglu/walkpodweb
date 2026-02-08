@@ -8,9 +8,12 @@ import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import DeleteAccount from './components/DeleteAccount';
+import TermsAndServices from './components/TermsAndServices';
+import AboutUs from './components/AboutUs';
+import Contact from './components/Contact';
 
 const App: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     if (isDarkMode) {
@@ -25,6 +28,9 @@ const App: React.FC = () => {
   const pathname = typeof window !== 'undefined' ? window.location.pathname : '/';
   const isPrivacyPolicy = pathname === '/privacy-policy.html' || pathname === '/privacy-policy';
   const isDeleteAccount = pathname === '/delete-account.html' || pathname === '/delete-account';
+  const isTermsAndServices = pathname === '/terms-and-services.html' || pathname === '/terms-and-services';
+  const isAboutUs = pathname === '/about-us.html' || pathname === '/about-us';
+  const isContact = pathname === '/contact.html' || pathname === '/contact';
 
   return (
     <div className="min-h-screen">
@@ -32,8 +38,14 @@ const App: React.FC = () => {
       <main>
         {isPrivacyPolicy ? (
           <PrivacyPolicy />
+        ) : isContact ? (
+          <Contact />
+        ) : isAboutUs ? (
+          <AboutUs />
         ) : isDeleteAccount ? (
           <DeleteAccount />
+        ) : isTermsAndServices ? (
+          <TermsAndServices />
         ) : (
           <>
             <Hero />

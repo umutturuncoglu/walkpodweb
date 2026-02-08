@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Apple, Play } from 'lucide-react';
 
 const CallToAction: React.FC = () => {
   return (
@@ -19,14 +18,6 @@ const CallToAction: React.FC = () => {
             Join over 500,000 users who have traded their old pedometers for the precision of WalkPod. Start your journey to a healthier you today.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 pt-4">
-            <button className="w-full sm:w-auto bg-white text-slate-900 px-10 py-5 rounded-2xl font-bold text-xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 shadow-2xl">
-              <Apple size={28} /> Download App
-            </button>
-            <button className="w-full sm:w-auto bg-slate-900/20 backdrop-blur-md text-white border border-white/30 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-slate-900/30 transition-all flex items-center justify-center gap-3">
-              <Play size={24} /> Learn More
-            </button>
-          </div>
         </div>
       </div>
     </section>
