@@ -15,7 +15,7 @@ const CallToAction: React.FC = () => {
           </h2>
           
           <p className="text-white/80 text-xl font-medium leading-relaxed">
-            Join over 500,000 users who have traded their old pedometers for the precision of WalkPod. Start your journey to a healthier you today.
+            Join users who have traded their old pedometers for the precision of WalkPod. Start your journey to a healthier you today.
           </p>
 
         </div>
