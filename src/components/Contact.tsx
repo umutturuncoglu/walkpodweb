@@ -12,14 +12,14 @@ const Contact: React.FC = () => {
         <div className="mt-10 space-y-8 text-slate-600 dark:text-slate-300 leading-relaxed">
           <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/60 px-6 py-6">
             <p>
-              Need a hand with WalkPod? Whether you&apos;ve got a question, run into a technical hiccup, or just want to
+              Need a hand with Walk Pod? Whether you&apos;ve got a question, run into a technical hiccup, or just want to
               share feedback, our support team is here to help. Drop us a message anytime at
               {' '}
               <a className="text-brand-green hover:underline font-semibold" href="mailto:support@walkpod.xyz">
                 support@walkpod.xyz
               </a>
               {' '}
-              and we&apos;ll get back to you as quickly as possible to make sure your WalkPod experience stays smooth and
+              and we&apos;ll get back to you as quickly as possible to make sure your Walk Pod experience stays smooth and
               enjoyable.
             </p>
           </div>

@@ -17,8 +17,8 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode }) => {
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 md:px-8 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border border-slate-200 dark:border-slate-800 px-6 py-3 rounded-full shadow-lg">
         <a href="/" className="flex items-center gap-2">
-          <img src={logo} alt="WalkPod Logo" className="w-10 h-10 object-contain rounded-full shadow-lg shadow-brand-green/20" />
-          <span className="text-xl font-extrabold tracking-tight">WalkPod</span>
+          <img src={logo} alt="Walk Pod Logo" className="w-10 h-10 object-contain rounded-full shadow-lg shadow-brand-green/20" />
+          <span className="text-xl font-extrabold tracking-tight">Walk Pod</span>
         </a>
 
         {/* Desktop Menu */}

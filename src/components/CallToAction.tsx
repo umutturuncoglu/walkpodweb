@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CallToAction: React.FC = () => {
@@ -11,13 +10,13 @@ const CallToAction: React.FC = () => {
 
         <div className="relative z-10 max-w-3xl mx-auto space-y-10">
           <h2 className="text-4xl md:text-6xl font-black leading-tight">
-            No more guesswork—WalkPod delivers exact activity tracking.
+            No more guesswork. Walk Pod delivers exact activity tracking.
           </h2>
-          
-          <p className="text-white/80 text-xl font-medium leading-relaxed">
-            Join users who have traded their old pedometers for the precision of WalkPod. Start your journey to a healthier you today.
-          </p>
 
+          <p className="text-white/80 text-xl font-medium leading-relaxed">
+            Join users who have traded their old pedometers for the precision of Walk Pod. Start
+            your journey to a healthier you today.
+          </p>
         </div>
       </div>
     </section>

@@ -29,7 +29,7 @@ const Features: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20 space-y-4">
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-            WalkPod: <span className="text-brand-green">Accuracy</span> you can trust,<br className="hidden md:block" /> progress you can see.
+            Walk Pod: <span className="text-brand-green">Accuracy</span> you can trust,<br className="hidden md:block" /> progress you can see.
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-lg max-w-2xl mx-auto">
             Every step counts, we just make sure we count the right ones. Our engine processes sensor data in real-time to give you certainty.

@@ -6,7 +6,7 @@ const PrivacyPolicy: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <div className="space-y-3">
           <p className="text-sm font-semibold text-brand-green tracking-wide uppercase">Legal</p>
-          <h1 className="text-3xl md:text-5xl font-black tracking-tight">WalkPod Privacy Policy</h1>
+          <h1 className="text-3xl md:text-5xl font-black tracking-tight">Walk Pod Privacy Policy</h1>
           <p className="text-slate-500 dark:text-slate-400 font-medium">Effective Date: February 5, 2026</p>
           <p className="text-slate-500 dark:text-slate-400 font-medium">Last Updated: February 5, 2026</p>
         </div>
@@ -17,7 +17,7 @@ const PrivacyPolicy: React.FC = () => {
             <p>
               Protecting your privacy is important to us. This Privacy Policy ("Policy") explains how
               <strong> TEAMEVENT ILETISIM HIZMETLERI ORG TUR LTD</strong> ("we", "us", or "our") collects,
-              uses, protects, and shares your information when you use the WalkPod mobile application
+              uses, protects, and shares your information when you use the Walk Pod mobile application
               (the "App") available on the Google Play Store.
             </p>
             <p>
@@ -32,7 +32,7 @@ const PrivacyPolicy: React.FC = () => {
             <div className="rounded-2xl border border-brand-green/20 bg-brand-green/10 px-6 py-5 text-slate-700 dark:text-slate-200">
               <p className="font-semibold">Quick Summary:</p>
               <p>
-                WalkPod is a step counting and fitness tracking app. We collect only the data necessary to
+                Walk Pod is a step counting and fitness tracking app. We collect only the data necessary to
                 provide our services. Your activity data is stored securely, and we do not sell your personal
                 information to third parties.
               </p>
@@ -42,7 +42,7 @@ const PrivacyPolicy: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">2. Information We Collect</h2>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">2.1 Information You Provide to Us</h3>
-            <p>When you use WalkPod, you may voluntarily provide us with the following information:</p>
+            <p>When you use Walk Pod, you may voluntarily provide us with the following information:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Account Information:</strong> Email address and display name (when you sign in with Google or create an account)</li>
               <li><strong>Profile Information:</strong> Nickname, height, weight, and gender (used for stride length and calorie calculations)</li>
@@ -62,7 +62,7 @@ const PrivacyPolicy: React.FC = () => {
 
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">2.3 Activity and Fitness Data</h3>
             <p>
-              WalkPod collects activity-related data including step counts, physical activity patterns, and water intake.
+              Walk Pod collects activity-related data including step counts, physical activity patterns, and water intake.
               This data is primarily used to provide you with fitness tracking features and personalized insights. We may
               share aggregated or anonymized data with our partners and service providers to improve our services.
             </p>
@@ -163,7 +163,7 @@ const PrivacyPolicy: React.FC = () => {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">6. Third-Party Services</h2>
-            <p>WalkPod uses the following third-party services:</p>
+            <p>Walk Pod uses the following third-party services:</p>
             <div className="overflow-x-auto">
               <table className="w-full text-left border-collapse text-sm">
                 <thead>
@@ -237,7 +237,7 @@ const PrivacyPolicy: React.FC = () => {
               <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/60 p-6 space-y-3">
                 <h4 className="text-lg font-bold text-slate-900 dark:text-white">1. Fast Deletion (In-App)</h4>
                 <p>
-                  If you have the WalkPod app installed, please go to <strong>Settings -&gt; Account -&gt; Delete Account</strong>.
+                  If you have the Walk Pod app installed, please go to <strong>Settings -&gt; Account -&gt; Delete Account</strong>.
                   This is the most secure method as it uses your active login to verify your identity.
                 </p>
               </div>
@@ -249,7 +249,7 @@ const PrivacyPolicy: React.FC = () => {
                   and prevent unauthorized deletions, we follow a verification process:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Step 1: Email <strong>support@walkpod.xyz</strong> from the email address used for your WalkPod account.</li>
+                  <li>Step 1: Email <strong>support@walkpod.xyz</strong> from the email address used for your Walk Pod account.</li>
                   <li>Step 2: Our team will send a verification email to that address.</li>
                   <li>Step 3: You must reply to that email to confirm your intent.</li>
                 </ul>
@@ -272,7 +272,7 @@ const PrivacyPolicy: React.FC = () => {
             </p>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">8.5 Anonymous Use</h3>
             <p>
-              You can use WalkPod without signing in. In anonymous mode, your data is stored only on your device and will
+              You can use Walk Pod without signing in. In anonymous mode, your data is stored only on your device and will
               be lost if you uninstall the App or clear its data.
             </p>
           </div>
@@ -318,7 +318,7 @@ const PrivacyPolicy: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">10. Children's Privacy</h2>
             <p>
-              WalkPod is intended for users aged <strong>14 years and older</strong>. We do not knowingly collect personal
+              Walk Pod is intended for users aged <strong>14 years and older</strong>. We do not knowingly collect personal
               information from children under 14. If we discover that a child under 14 has provided us with personal
               information, we will promptly delete it from our servers.
             </p>
@@ -358,7 +358,7 @@ const PrivacyPolicy: React.FC = () => {
 
           <div className="pt-4 text-sm text-slate-400 dark:text-slate-500">
             <p>(c) 2026 TEAMEVENT ILETISIM HIZMETLERI ORG TUR LTD. All rights reserved.</p>
-            <p className="font-semibold text-slate-500 dark:text-slate-400">WalkPod - Your Daily Step Companion</p>
+            <p className="font-semibold text-slate-500 dark:text-slate-400">Walk Pod - Your Daily Step Companion</p>
           </div>
         </div>
       </div>

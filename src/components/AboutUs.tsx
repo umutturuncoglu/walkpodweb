@@ -41,12 +41,12 @@ const AboutUs: React.FC = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Flagship Product - WalkPod</h2>
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Flagship Product - Walk Pod</h2>
             <p>
-              WalkPod is a health and fitness app designed to motivate users to walk more, track their progress with
+              Walk Pod is a health and fitness app designed to motivate users to walk more, track their progress with
               precision, and stay connected to a community of active individuals. It blends accuracy, trust, and
               user-friendly design to encourage healthier habits while offering brands a new channel for meaningful
-              engagement. WalkPod is the intellectual property of our company, developed and owned exclusively by the company.
+              engagement. Walk Pod is the intellectual property of our company, developed and owned exclusively by the company.
 
             </p>
           </div>

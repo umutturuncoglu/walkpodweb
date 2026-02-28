@@ -6,7 +6,7 @@ const TermsAndServices: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <div className="space-y-3">
           <p className="text-sm font-semibold text-brand-green tracking-wide uppercase">Legal</p>
-          <h1 className="text-3xl md:text-5xl font-black tracking-tight">WalkPod Terms of Service</h1>
+          <h1 className="text-3xl md:text-5xl font-black tracking-tight">Walk Pod Terms of Service</h1>
           <p className="text-slate-500 dark:text-slate-400 font-medium">Last Updated: February 8, 2026</p>
         </div>
 
@@ -14,15 +14,15 @@ const TermsAndServices: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">1. Agreement to Terms</h2>
             <p>
-              By using WalkPod ("the App"), you agree to these Terms of Service and our Privacy Policy.
-              If you do not agree, please uninstall the App. You must be at least 13 years old to use WalkPod.
+              By using Walk Pod ("the App"), you agree to these Terms of Service and our Privacy Policy.
+              If you do not agree, please uninstall the App. You must be at least 13 years old to use Walk Pod.
             </p>
           </div>
 
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">2. License</h2>
             <p>
-              We grant you a personal, non-exclusive license to use WalkPod on devices you own. This
+              We grant you a personal, non-exclusive license to use Walk Pod on devices you own. This
               license does not permit reverse engineering, decompiling, or extracting our algorithms.
               All intellectual property remains the exclusive property of TEAMEVENT ILETISIM HIZMETLERI
               ORG TUR LTD.
@@ -32,7 +32,7 @@ const TermsAndServices: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">3. Fitness Metrics: Estimates Only (NOT A MEDICAL DEVICE)</h2>
             <p>
-              WalkPod provides estimated step counts, distance, and calories based on device sensors.
+              Walk Pod provides estimated step counts, distance, and calories based on device sensors.
             </p>
             <div className="rounded-2xl border border-brand-green/20 bg-brand-green/10 px-6 py-5 text-slate-700 dark:text-slate-200 space-y-3">
               <p>
@@ -45,7 +45,7 @@ const TermsAndServices: React.FC = () => {
               </p>
               <p>
                 <strong>USER RISK:</strong> You assume full responsibility for any physical activity based
-                on WalkPod data. TEAMEVENT ILETISIM HIZMETLERI ORG TUR LTD is not a medical provider.
+                on Walk Pod data. TEAMEVENT ILETISIM HIZMETLERI ORG TUR LTD is not a medical provider.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const TermsAndServices: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">4. Map Features and Google Maps Integration</h2>
             <p>
-              WalkPod uses Google Maps Platform. By using map features, you agree to the Google Maps
+              Walk Pod uses Google Maps Platform. By using map features, you agree to the Google Maps
               Platform Terms of Service and Google Privacy Policy.
             </p>
           </div>
@@ -61,7 +61,7 @@ const TermsAndServices: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">5. No Warranties</h2>
             <p>
-              WalkPod is provided "as is" without warranties. We do not guarantee uninterrupted service
+              Walk Pod is provided "as is" without warranties. We do not guarantee uninterrupted service
               or 100% accuracy of fitness metrics.
             </p>
           </div>
@@ -78,7 +78,7 @@ const TermsAndServices: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">7. Subscription: Ad-Free Experience</h2>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">7.1 Service</h3>
-            <p>WalkPod Premium removes advertisements. No additional features are unlocked.</p>
+            <p>Walk Pod Premium removes advertisements. No additional features are unlocked.</p>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">7.2 Payments</h3>
             <p>Subscriptions are processed via Google Play Store. We do not store payment info.</p>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">7.3 Refunds</h3>

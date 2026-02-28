@@ -1,5 +1,5 @@
 {
-  "name": "WalkPod - Precision Activity Tracker",
+  "name": "Walk Pod - Precision Activity Tracker",
   "description": "A high-performance landing page for a step tracking application, featuring precision metrics, smart routing, and beautiful visual analytics.",
   "requestFramePermissions": [
     "geolocation"

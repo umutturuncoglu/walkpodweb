@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-12 items-start">
           <div className="md:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="WalkPod Logo" className="w-12 h-12 object-contain rounded-xl shadow-lg shadow-brand-green/20" />
-              <span className="text-2xl font-black tracking-tight">WalkPod</span>
+              <img src={logo} alt="Walk Pod Logo" className="w-12 h-12 object-contain rounded-xl shadow-lg shadow-brand-green/20" />
+              <span className="text-2xl font-black tracking-tight">Walk Pod</span>
             </div>
             <p className="text-slate-500 dark:text-slate-400 max-w-sm leading-relaxed text-lg">
               The world's most accurate step and activity tracking application. Designed for those who value precision.
